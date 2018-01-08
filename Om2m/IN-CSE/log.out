@@ -1,0 +1,496 @@
+[2018-01-04 12:26:31,817 INFO] - org.eclipse.om2m.datamapping.jaxb.Activator 
+Starting Data Mapper
+[2018-01-04 12:26:31,817 INFO] - org.eclipse.om2m.datamapping.jaxb.Activator 
+Registering XML Mapper Service..
+[2018-01-04 12:26:32,544 INFO] - org.eclipse.om2m.datamapping.jaxb.Activator 
+XML Mapper service registered.
+[2018-01-04 12:26:32,544 INFO] - org.eclipse.om2m.datamapping.jaxb.Activator 
+Registering JSON Mapper Service..
+[2018-01-04 12:26:32,915 INFO] - org.eclipse.om2m.datamapping.jaxb.Activator 
+JSON Mapper service registered.
+[2018-01-04 12:26:32,918 INFO] - org.eclipse.om2m.binding.coap.Activator 
+Register CoAP RestClientService..
+[2018-01-04 12:26:32,920 INFO] - org.eclipse.om2m.binding.coap.Activator 
+Starting CoAP server
+[2018-01-04 12:26:32,966 INFO] - org.eclipse.om2m.binding.coap.Activator 
+CseService opened
+[2018-01-04 12:26:32,967 INFO] - org.eclipse.om2m.binding.http.Activator 
+Register HTTP RestClientService..
+[2018-01-04 12:26:32,971 INFO] - org.eclipse.om2m.binding.http.Activator 
+HTTP RestClientService is registered.
+[2018-01-04 12:26:32,971 INFO] - org.eclipse.om2m.persistence.eclipselink.Activator 
+Starting Persistence JPA plugin...
+[2018-01-04 12:26:32,972 INFO] - org.eclipse.om2m.binding.http.Activator 
+HttpService discovered
+[2018-01-04 12:26:32,973 INFO] - org.eclipse.om2m.persistence.eclipselink.internal.DBServiceJPAImpl 
+Initializing Database...
+[2018-01-04 12:26:32,973 INFO] - org.eclipse.om2m.binding.http.Activator 
+Register / context
+[2018-01-04 12:26:32,973 INFO] - org.eclipse.om2m.persistence.eclipselink.internal.DBServiceJPAImpl 
+Creating new EntityManagerFactory...
+[2018-01-04 12:26:33,019 INFO] - org.eclipse.om2m.core.Activator 
+Starting CSE...
+[2018-01-04 12:26:33,019 INFO] - org.eclipse.om2m.core.Activator 
+Added Data Mapper Service: application/xml
+[2018-01-04 12:26:33,019 INFO] - org.eclipse.om2m.core.Activator 
+Added Data Mapper Service: application/json
+[2018-01-04 12:26:33,020 INFO] - org.eclipse.om2m.core.Activator 
+Rest client service discovered. Protocol: coap
+[2018-01-04 12:26:33,020 INFO] - org.eclipse.om2m.core.Activator 
+Rest client service discovered. Protocol: http
+[2018-01-04 12:26:33,022 INFO] - org.eclipse.om2m.webapp.resourcesbrowser.xml.Activator 
+HttpService discovered
+[2018-01-04 12:26:33,022 INFO] - org.eclipse.om2m.webapp.resourcesbrowser.xml.Activator 
+Register /webpage http context
+[2018-01-04 12:26:33,623 INFO] - org.eclipse.om2m.persistence.eclipselink.internal.DBServiceJPAImpl 
+DataBase initialized.
+[2018-01-04 12:26:33,637 INFO] - org.eclipse.om2m.persistence.eclipselink.Activator 
+Registering Database (JPA-EL) Service
+[2018-01-04 12:26:33,638 INFO] - org.eclipse.om2m.core.Activator 
+DataBase persistence service discovered
+[2018-01-04 12:26:33,638 INFO] - org.eclipse.om2m.core.thread.CoreExecutor 
+Creating thread pool with corePoolSize=5 & maximumSize=50
+[2018-01-04 12:26:33,640 INFO] - org.eclipse.om2m.core.CSEInitializer 
+Initializating the cseBase
+[2018-01-04 12:26:33,646 INFO] - org.eclipse.om2m.core.CSEInitializer 
+Create AccessControlPolicy resource
+[2018-01-04 12:26:33,674 INFO] - org.eclipse.om2m.core.CSEInitializer 
+Create CSEBase resource
+[2018-01-04 12:26:33,691 INFO] - org.eclipse.om2m.core.Activator 
+Registering CseService...
+[2018-01-04 12:26:33,695 INFO] - org.eclipse.om2m.binding.coap.Activator 
+CSE Service discovered
+[2018-01-04 12:26:33,695 INFO] - org.eclipse.om2m.binding.http.Activator 
+CseService discovered
+[2018-01-04 12:26:33,696 INFO] - org.eclipse.om2m.core.Activator 
+CSE Started
+[2018-01-04 12:26:55,841 INFO] - org.eclipse.om2m.binding.http.RestHttpServlet 
+----------------------------------------------------------------------------------------------
+[2018-01-04 12:26:55,842 INFO] - org.eclipse.om2m.binding.http.RestHttpServlet 
+Built RequestPrimitive: RequestPrimitive [to=,
+ ]
+[2018-01-04 12:26:55,842 INFO] - org.eclipse.om2m.binding.http.RestHttpServlet 
+Accept header: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+[2018-01-04 12:26:55,842 INFO] - org.eclipse.om2m.core.router.Router 
+Received request in Router: RequestPrimitive [operation=2,
+ to=,
+ returnContentType=application/xml,
+ requestContentType=application/xml,
+ queryStrings={}]
+[2018-01-04 12:26:55,843 INFO] - org.eclipse.om2m.core.router.Router 
+Request handling in the current CSE: /in-cse
+[2018-01-04 12:26:55,843 INFO] - org.eclipse.om2m.core.router.Router 
+ResourceController to be used [CSEBaseController]
+[2018-01-04 12:26:55,846 INFO] - org.eclipse.om2m.core.router.Router 
+OM2M exception caught in Router: Unknown or unauthorized originator
+[2018-01-04 12:26:55,846 INFO] - org.eclipse.om2m.core.router.Router 
+Response in Router= ResponsePrimitive [responseStatusCode=4103,
+ content=Unknown or unauthorized originator,
+ from=/in-cse,
+ contentType=text/plain,
+]
+[2018-01-04 12:26:55,872 INFO] - org.eclipse.om2m.binding.http.RestHttpServlet 
+----------------------------------------------------------------------------------------------
+[2018-01-04 12:26:55,872 INFO] - org.eclipse.om2m.binding.http.RestHttpServlet 
+Built RequestPrimitive: RequestPrimitive [to=favicon.ico,
+ ]
+[2018-01-04 12:26:55,872 INFO] - org.eclipse.om2m.binding.http.RestHttpServlet 
+Accept header: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+[2018-01-04 12:26:55,872 INFO] - org.eclipse.om2m.core.router.Router 
+Received request in Router: RequestPrimitive [operation=2,
+ to=favicon.ico,
+ returnContentType=application/xml,
+ requestContentType=application/xml,
+ queryStrings={}]
+[2018-01-04 12:26:55,872 INFO] - org.eclipse.om2m.core.router.Router 
+Request handling in the current CSE: /in-cse/favicon.ico
+[2018-01-04 12:26:55,872 INFO] - org.eclipse.om2m.core.router.Router 
+OM2M exception caught in Router: Malformed URI
+[2018-01-04 12:26:55,873 INFO] - org.eclipse.om2m.core.router.Router 
+Response in Router= ResponsePrimitive [responseStatusCode=4000,
+ content=Malformed URI,
+ from=/in-cse,
+ contentType=text/plain,
+]
+[2018-01-04 12:26:57,518 INFO] - org.eclipse.om2m.binding.http.RestHttpServlet 
+----------------------------------------------------------------------------------------------
+[2018-01-04 12:26:57,518 INFO] - org.eclipse.om2m.binding.http.RestHttpServlet 
+Built RequestPrimitive: RequestPrimitive [to=,
+ ]
+[2018-01-04 12:26:57,518 INFO] - org.eclipse.om2m.binding.http.RestHttpServlet 
+Accept header: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+[2018-01-04 12:26:57,518 INFO] - org.eclipse.om2m.core.router.Router 
+Received request in Router: RequestPrimitive [operation=2,
+ to=,
+ returnContentType=application/xml,
+ requestContentType=application/xml,
+ queryStrings={}]
+[2018-01-04 12:26:57,518 INFO] - org.eclipse.om2m.core.router.Router 
+Request handling in the current CSE: /in-cse
+[2018-01-04 12:26:57,518 INFO] - org.eclipse.om2m.core.router.Router 
+ResourceController to be used [CSEBaseController]
+[2018-01-04 12:26:57,520 INFO] - org.eclipse.om2m.core.router.Router 
+OM2M exception caught in Router: Unknown or unauthorized originator
+[2018-01-04 12:26:57,520 INFO] - org.eclipse.om2m.core.router.Router 
+Response in Router= ResponsePrimitive [responseStatusCode=4103,
+ content=Unknown or unauthorized originator,
+ from=/in-cse,
+ contentType=text/plain,
+]
+[2018-01-04 12:27:09,265 INFO] - org.eclipse.om2m.binding.http.RestHttpServlet 
+----------------------------------------------------------------------------------------------
+[2018-01-04 12:27:09,265 INFO] - org.eclipse.om2m.binding.http.RestHttpServlet 
+Built RequestPrimitive: RequestPrimitive [to=in-cse,
+ ]
+[2018-01-04 12:27:09,265 INFO] - org.eclipse.om2m.binding.http.RestHttpServlet 
+Accept header: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+[2018-01-04 12:27:09,265 INFO] - org.eclipse.om2m.core.router.Router 
+Received request in Router: RequestPrimitive [operation=2,
+ to=in-cse,
+ returnContentType=application/xml,
+ requestContentType=application/xml,
+ queryStrings={}]
+[2018-01-04 12:27:09,265 INFO] - org.eclipse.om2m.core.router.Router 
+Request handling in the current CSE: /in-cse/in-cse
+[2018-01-04 12:27:09,265 INFO] - org.eclipse.om2m.core.router.Router 
+OM2M exception caught in Router: Malformed URI
+[2018-01-04 12:27:09,265 INFO] - org.eclipse.om2m.core.router.Router 
+Response in Router= ResponsePrimitive [responseStatusCode=4000,
+ content=Malformed URI,
+ from=/in-cse,
+ contentType=text/plain,
+]
+[2018-01-04 12:30:09,525 INFO] - org.eclipse.om2m.binding.http.RestHttpServlet 
+----------------------------------------------------------------------------------------------
+[2018-01-04 12:30:09,526 INFO] - org.eclipse.om2m.binding.http.RestHttpServlet 
+Built RequestPrimitive: RequestPrimitive [to=/in-cse,
+ resultContent=5,
+ ]
+[2018-01-04 12:30:09,526 INFO] - org.eclipse.om2m.binding.http.RestHttpServlet 
+Accept header: application/xml
+[2018-01-04 12:30:09,526 INFO] - org.eclipse.om2m.core.router.Router 
+Received request in Router: RequestPrimitive [operation=2,
+ to=/in-cse,
+ from=admin:admin,
+ resultContent=5,
+ returnContentType=application/xml,
+ requestContentType=application/xml,
+ queryStrings={rcn=[5]}]
+[2018-01-04 12:30:09,526 INFO] - org.eclipse.om2m.core.router.Router 
+Request handling in the current CSE: /in-cse
+[2018-01-04 12:30:09,527 INFO] - org.eclipse.om2m.core.router.Router 
+ResourceController to be used [CSEBaseController]
+[2018-01-04 12:30:09,554 INFO] - org.eclipse.om2m.core.router.Router 
+Response in Router= ResponsePrimitive [responseStatusCode=2000,
+ content=<?xml version="1.0" encoding="UTF-8"?>
+<m2m:cb xmlns:m2m="http://www.onem2m.org/xml/protocols" rn="in-name">
+   <ty>5</ty>
+   <ri>/in-cse</ri>
+   <ct>20180104T122633</ct>
+   <lt>20180104T122633</lt>
+   <acpi>/in-cse/acp-269732172</acpi>
+   <cst>1</cst>
+   <csi>in-cse</csi>
+   <srt>1 2 3 4 5 9 14 15 16 17 23</srt>
+   <poa>http://127.0.0.1:8080/</poa>
+   <ch rn="acp_admin" ty="1">/in-cse/acp-269732172</ch>
+</m2m:cb>
+,
+ to=admin:admin,
+ from=/in-cse,
+ contentType=application/xml,
+]
+[2018-01-04 14:31:32,591 INFO] - org.eclipse.om2m.datamapping.jaxb.Activator 
+Starting Data Mapper
+[2018-01-04 14:31:32,603 INFO] - org.eclipse.om2m.datamapping.jaxb.Activator 
+Registering XML Mapper Service..
+[2018-01-04 14:31:33,293 INFO] - org.eclipse.om2m.datamapping.jaxb.Activator 
+XML Mapper service registered.
+[2018-01-04 14:31:33,293 INFO] - org.eclipse.om2m.datamapping.jaxb.Activator 
+Registering JSON Mapper Service..
+[2018-01-04 14:31:33,612 INFO] - org.eclipse.om2m.datamapping.jaxb.Activator 
+JSON Mapper service registered.
+[2018-01-04 14:31:33,632 INFO] - org.eclipse.om2m.binding.coap.Activator 
+Register CoAP RestClientService..
+[2018-01-04 14:31:33,633 INFO] - org.eclipse.om2m.binding.coap.Activator 
+Starting CoAP server
+[2018-01-04 14:31:33,671 INFO] - org.eclipse.om2m.binding.coap.Activator 
+CseService opened
+[2018-01-04 14:31:33,672 INFO] - org.eclipse.om2m.binding.http.Activator 
+Register HTTP RestClientService..
+[2018-01-04 14:31:33,693 INFO] - org.eclipse.om2m.binding.http.Activator 
+HTTP RestClientService is registered.
+[2018-01-04 14:31:33,694 INFO] - org.eclipse.om2m.persistence.eclipselink.Activator 
+Starting Persistence JPA plugin...
+[2018-01-04 14:31:33,695 INFO] - org.eclipse.om2m.binding.http.Activator 
+HttpService discovered
+[2018-01-04 14:31:33,695 INFO] - org.eclipse.om2m.binding.http.Activator 
+Register / context
+[2018-01-04 14:31:33,695 INFO] - org.eclipse.om2m.persistence.eclipselink.internal.DBServiceJPAImpl 
+Initializing Database...
+[2018-01-04 14:31:33,695 INFO] - org.eclipse.om2m.persistence.eclipselink.internal.DBServiceJPAImpl 
+Creating new EntityManagerFactory...
+[2018-01-04 14:31:33,799 INFO] - org.eclipse.om2m.core.Activator 
+Starting CSE...
+[2018-01-04 14:31:33,800 INFO] - org.eclipse.om2m.core.Activator 
+Added Data Mapper Service: application/xml
+[2018-01-04 14:31:33,800 INFO] - org.eclipse.om2m.core.Activator 
+Added Data Mapper Service: application/json
+[2018-01-04 14:31:33,801 INFO] - org.eclipse.om2m.core.Activator 
+Rest client service discovered. Protocol: coap
+[2018-01-04 14:31:33,801 INFO] - org.eclipse.om2m.core.Activator 
+Rest client service discovered. Protocol: http
+[2018-01-04 14:31:33,802 INFO] - org.eclipse.om2m.webapp.resourcesbrowser.xml.Activator 
+HttpService discovered
+[2018-01-04 14:31:33,803 INFO] - org.eclipse.om2m.webapp.resourcesbrowser.xml.Activator 
+Register /webpage http context
+[2018-01-04 14:31:34,537 INFO] - org.eclipse.om2m.persistence.eclipselink.internal.DBServiceJPAImpl 
+DataBase initialized.
+[2018-01-04 14:31:34,549 INFO] - org.eclipse.om2m.persistence.eclipselink.Activator 
+Registering Database (JPA-EL) Service
+[2018-01-04 14:31:34,550 INFO] - org.eclipse.om2m.core.Activator 
+DataBase persistence service discovered
+[2018-01-04 14:31:34,550 INFO] - org.eclipse.om2m.core.thread.CoreExecutor 
+Creating thread pool with corePoolSize=5 & maximumSize=50
+[2018-01-04 14:31:34,552 INFO] - org.eclipse.om2m.core.CSEInitializer 
+Initializating the cseBase
+[2018-01-04 14:31:34,573 INFO] - org.eclipse.om2m.core.CSEInitializer 
+cseBase already initialized
+[2018-01-04 14:31:34,573 INFO] - org.eclipse.om2m.core.Activator 
+Registering CseService...
+[2018-01-04 14:31:34,577 INFO] - org.eclipse.om2m.binding.coap.Activator 
+CSE Service discovered
+[2018-01-04 14:31:34,577 INFO] - org.eclipse.om2m.binding.http.Activator 
+CseService discovered
+[2018-01-04 14:31:34,577 INFO] - org.eclipse.om2m.core.Activator 
+CSE Started
+[2018-01-04 14:31:37,964 INFO] - org.eclipse.om2m.binding.http.RestHttpServlet 
+----------------------------------------------------------------------------------------------
+[2018-01-04 14:31:37,966 INFO] - org.eclipse.om2m.binding.http.RestHttpServlet 
+Built RequestPrimitive: RequestPrimitive [to=/in-cse,
+ resultContent=5,
+ ]
+[2018-01-04 14:31:37,966 INFO] - org.eclipse.om2m.binding.http.RestHttpServlet 
+Accept header: application/xml
+[2018-01-04 14:31:37,966 INFO] - org.eclipse.om2m.core.router.Router 
+Received request in Router: RequestPrimitive [operation=2,
+ to=/in-cse,
+ from=admin:admin,
+ resultContent=5,
+ returnContentType=application/xml,
+ requestContentType=application/xml,
+ queryStrings={rcn=[5]}]
+[2018-01-04 14:31:37,968 INFO] - org.eclipse.om2m.core.router.Router 
+Request handling in the current CSE: /in-cse
+[2018-01-04 14:31:37,969 INFO] - org.eclipse.om2m.core.router.Router 
+ResourceController to be used [CSEBaseController]
+[2018-01-04 14:31:37,998 INFO] - org.eclipse.om2m.core.router.Router 
+Response in Router= ResponsePrimitive [responseStatusCode=2000,
+ content=<?xml version="1.0" encoding="UTF-8"?>
+<m2m:cb xmlns:m2m="http://www.onem2m.org/xml/protocols" rn="in-name">
+   <ty>5</ty>
+   <ri>/in-cse</ri>
+   <ct>20180104T122633</ct>
+   <lt>20180104T122633</lt>
+   <acpi>/in-cse/acp-269732172</acpi>
+   <cst>1</cst>
+   <csi>in-cse</csi>
+   <srt>1 2 3 4 5 9 14 15 16 17 23</srt>
+   <poa>http://127.0.0.1:8080/</poa>
+   <ch rn="acp_admin" ty="1">/in-cse/acp-269732172</ch>
+</m2m:cb>
+,
+ to=admin:admin,
+ from=/in-cse,
+ contentType=application/xml,
+]
+[2018-01-04 14:44:56,573 INFO] - org.eclipse.om2m.binding.http.RestHttpServlet 
+----------------------------------------------------------------------------------------------
+[2018-01-04 14:44:56,574 INFO] - org.eclipse.om2m.binding.http.RestHttpServlet 
+Built RequestPrimitive: RequestPrimitive [to=/in-cse,
+ resultContent=5,
+ ]
+[2018-01-04 14:44:56,574 INFO] - org.eclipse.om2m.binding.http.RestHttpServlet 
+Accept header: application/xml
+[2018-01-04 14:44:56,574 INFO] - org.eclipse.om2m.core.router.Router 
+Received request in Router: RequestPrimitive [operation=2,
+ to=/in-cse,
+ from=admin:admin,
+ resultContent=5,
+ returnContentType=application/xml,
+ requestContentType=application/xml,
+ queryStrings={rcn=[5]}]
+[2018-01-04 14:44:56,574 INFO] - org.eclipse.om2m.core.router.Router 
+Request handling in the current CSE: /in-cse
+[2018-01-04 14:44:56,574 INFO] - org.eclipse.om2m.core.router.Router 
+ResourceController to be used [CSEBaseController]
+[2018-01-04 14:44:56,579 INFO] - org.eclipse.om2m.core.router.Router 
+Response in Router= ResponsePrimitive [responseStatusCode=2000,
+ content=<?xml version="1.0" encoding="UTF-8"?>
+<m2m:cb xmlns:m2m="http://www.onem2m.org/xml/protocols" rn="in-name">
+   <ty>5</ty>
+   <ri>/in-cse</ri>
+   <ct>20180104T122633</ct>
+   <lt>20180104T122633</lt>
+   <acpi>/in-cse/acp-269732172</acpi>
+   <cst>1</cst>
+   <csi>in-cse</csi>
+   <srt>1 2 3 4 5 9 14 15 16 17 23</srt>
+   <poa>http://127.0.0.1:8080/</poa>
+   <ch rn="acp_admin" ty="1">/in-cse/acp-269732172</ch>
+</m2m:cb>
+,
+ to=admin:admin,
+ from=/in-cse,
+ contentType=application/xml,
+]
+[2018-01-05 15:35:22,760 INFO] - org.eclipse.om2m.datamapping.jaxb.Activator 
+Starting Data Mapper
+[2018-01-05 15:35:22,767 INFO] - org.eclipse.om2m.datamapping.jaxb.Activator 
+Registering XML Mapper Service..
+[2018-01-05 15:35:23,396 INFO] - org.eclipse.om2m.datamapping.jaxb.Activator 
+XML Mapper service registered.
+[2018-01-05 15:35:23,396 INFO] - org.eclipse.om2m.datamapping.jaxb.Activator 
+Registering JSON Mapper Service..
+[2018-01-05 15:35:23,672 INFO] - org.eclipse.om2m.datamapping.jaxb.Activator 
+JSON Mapper service registered.
+[2018-01-05 15:35:23,693 INFO] - org.eclipse.om2m.binding.coap.Activator 
+Register CoAP RestClientService..
+[2018-01-05 15:35:23,693 INFO] - org.eclipse.om2m.binding.coap.Activator 
+Starting CoAP server
+[2018-01-05 15:35:23,713 INFO] - org.eclipse.om2m.binding.coap.Activator 
+CseService opened
+[2018-01-05 15:35:23,714 INFO] - org.eclipse.om2m.binding.http.Activator 
+Register HTTP RestClientService..
+[2018-01-05 15:35:23,730 INFO] - org.eclipse.om2m.binding.http.Activator 
+HTTP RestClientService is registered.
+[2018-01-05 15:35:23,731 INFO] - org.eclipse.om2m.persistence.eclipselink.Activator 
+Starting Persistence JPA plugin...
+[2018-01-05 15:35:23,731 INFO] - org.eclipse.om2m.binding.http.Activator 
+HttpService discovered
+[2018-01-05 15:35:23,732 INFO] - org.eclipse.om2m.binding.http.Activator 
+Register / context
+[2018-01-05 15:35:23,732 INFO] - org.eclipse.om2m.persistence.eclipselink.internal.DBServiceJPAImpl 
+Initializing Database...
+[2018-01-05 15:35:23,732 INFO] - org.eclipse.om2m.persistence.eclipselink.internal.DBServiceJPAImpl 
+Creating new EntityManagerFactory...
+[2018-01-05 15:35:23,809 INFO] - org.eclipse.om2m.core.Activator 
+Starting CSE...
+[2018-01-05 15:35:23,809 INFO] - org.eclipse.om2m.core.Activator 
+Added Data Mapper Service: application/xml
+[2018-01-05 15:35:23,809 INFO] - org.eclipse.om2m.core.Activator 
+Added Data Mapper Service: application/json
+[2018-01-05 15:35:23,810 INFO] - org.eclipse.om2m.core.Activator 
+Rest client service discovered. Protocol: coap
+[2018-01-05 15:35:23,811 INFO] - org.eclipse.om2m.core.Activator 
+Rest client service discovered. Protocol: http
+[2018-01-05 15:35:23,812 INFO] - org.eclipse.om2m.webapp.resourcesbrowser.xml.Activator 
+HttpService discovered
+[2018-01-05 15:35:23,812 INFO] - org.eclipse.om2m.webapp.resourcesbrowser.xml.Activator 
+Register /webpage http context
+[2018-01-05 15:35:24,409 INFO] - org.eclipse.om2m.persistence.eclipselink.internal.DBServiceJPAImpl 
+DataBase initialized.
+[2018-01-05 15:35:24,420 INFO] - org.eclipse.om2m.persistence.eclipselink.Activator 
+Registering Database (JPA-EL) Service
+[2018-01-05 15:35:24,421 INFO] - org.eclipse.om2m.core.Activator 
+DataBase persistence service discovered
+[2018-01-05 15:35:24,421 INFO] - org.eclipse.om2m.core.thread.CoreExecutor 
+Creating thread pool with corePoolSize=5 & maximumSize=50
+[2018-01-05 15:35:24,423 INFO] - org.eclipse.om2m.core.CSEInitializer 
+Initializating the cseBase
+[2018-01-05 15:35:24,442 INFO] - org.eclipse.om2m.core.CSEInitializer 
+cseBase already initialized
+[2018-01-05 15:35:24,442 INFO] - org.eclipse.om2m.core.Activator 
+Registering CseService...
+[2018-01-05 15:35:24,447 INFO] - org.eclipse.om2m.binding.coap.Activator 
+CSE Service discovered
+[2018-01-05 15:35:24,447 INFO] - org.eclipse.om2m.binding.http.Activator 
+CseService discovered
+[2018-01-05 15:35:24,447 INFO] - org.eclipse.om2m.core.Activator 
+CSE Started
+[2018-01-05 15:35:38,930 INFO] - org.eclipse.om2m.binding.http.RestHttpServlet 
+----------------------------------------------------------------------------------------------
+[2018-01-05 15:35:38,931 INFO] - org.eclipse.om2m.binding.http.RestHttpServlet 
+Built RequestPrimitive: RequestPrimitive [to=favicon.ico,
+ ]
+[2018-01-05 15:35:38,932 INFO] - org.eclipse.om2m.binding.http.RestHttpServlet 
+Accept header: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+[2018-01-05 15:35:38,932 INFO] - org.eclipse.om2m.core.router.Router 
+Received request in Router: RequestPrimitive [operation=2,
+ to=favicon.ico,
+ returnContentType=application/xml,
+ requestContentType=application/xml,
+ queryStrings={}]
+[2018-01-05 15:35:38,934 INFO] - org.eclipse.om2m.core.router.Router 
+Request handling in the current CSE: /in-cse/favicon.ico
+[2018-01-05 15:35:38,934 INFO] - org.eclipse.om2m.core.router.Router 
+OM2M exception caught in Router: Malformed URI
+[2018-01-05 15:35:38,934 INFO] - org.eclipse.om2m.core.router.Router 
+Response in Router= ResponsePrimitive [responseStatusCode=4000,
+ content=Malformed URI,
+ from=/in-cse,
+ contentType=text/plain,
+]
+[2018-01-05 15:35:39,024 INFO] - org.eclipse.om2m.binding.http.RestHttpServlet 
+----------------------------------------------------------------------------------------------
+[2018-01-05 15:35:39,024 INFO] - org.eclipse.om2m.binding.http.RestHttpServlet 
+Built RequestPrimitive: RequestPrimitive [to=favicon.ico,
+ ]
+[2018-01-05 15:35:39,024 INFO] - org.eclipse.om2m.binding.http.RestHttpServlet 
+Accept header: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+[2018-01-05 15:35:39,024 INFO] - org.eclipse.om2m.core.router.Router 
+Received request in Router: RequestPrimitive [operation=2,
+ to=favicon.ico,
+ returnContentType=application/xml,
+ requestContentType=application/xml,
+ queryStrings={}]
+[2018-01-05 15:35:39,024 INFO] - org.eclipse.om2m.core.router.Router 
+Request handling in the current CSE: /in-cse/favicon.ico
+[2018-01-05 15:35:39,024 INFO] - org.eclipse.om2m.core.router.Router 
+OM2M exception caught in Router: Malformed URI
+[2018-01-05 15:35:39,024 INFO] - org.eclipse.om2m.core.router.Router 
+Response in Router= ResponsePrimitive [responseStatusCode=4000,
+ content=Malformed URI,
+ from=/in-cse,
+ contentType=text/plain,
+]
+[2018-01-05 15:35:43,331 INFO] - org.eclipse.om2m.binding.http.RestHttpServlet 
+----------------------------------------------------------------------------------------------
+[2018-01-05 15:35:43,332 INFO] - org.eclipse.om2m.binding.http.RestHttpServlet 
+Built RequestPrimitive: RequestPrimitive [to=/in-cse,
+ resultContent=5,
+ ]
+[2018-01-05 15:35:43,332 INFO] - org.eclipse.om2m.binding.http.RestHttpServlet 
+Accept header: application/xml
+[2018-01-05 15:35:43,332 INFO] - org.eclipse.om2m.core.router.Router 
+Received request in Router: RequestPrimitive [operation=2,
+ to=/in-cse,
+ from=admin:admin,
+ resultContent=5,
+ returnContentType=application/xml,
+ requestContentType=application/xml,
+ queryStrings={rcn=[5]}]
+[2018-01-05 15:35:43,332 INFO] - org.eclipse.om2m.core.router.Router 
+Request handling in the current CSE: /in-cse
+[2018-01-05 15:35:43,333 INFO] - org.eclipse.om2m.core.router.Router 
+ResourceController to be used [CSEBaseController]
+[2018-01-05 15:35:43,367 INFO] - org.eclipse.om2m.core.router.Router 
+Response in Router= ResponsePrimitive [responseStatusCode=2000,
+ content=<?xml version="1.0" encoding="UTF-8"?>
+<m2m:cb xmlns:m2m="http://www.onem2m.org/xml/protocols" rn="in-name">
+   <ty>5</ty>
+   <ri>/in-cse</ri>
+   <ct>20180104T122633</ct>
+   <lt>20180104T122633</lt>
+   <acpi>/in-cse/acp-269732172</acpi>
+   <cst>1</cst>
+   <csi>in-cse</csi>
+   <srt>1 2 3 4 5 9 14 15 16 17 23</srt>
+   <poa>http://127.0.0.1:8080/</poa>
+   <ch rn="acp_admin" ty="1">/in-cse/acp-269732172</ch>
+</m2m:cb>
+,
+ to=admin:admin,
+ from=/in-cse,
+ contentType=application/xml,
+]
